@@ -8,6 +8,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{3197
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseSynchronization", "DatabaseSynchronization", "{DAD01027-14C7-4C94-A19A-8B8ADF2F851A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{642CFDA3-8A5F-420D-8B38-81E0213655C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{FEF2E7A1-8EA9-465C-BA4E-CBE468169A9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,9 @@ Global
 		{D3B6C6D8-D2AC-4CAE-A67C-95CCFCBC0C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3B6C6D8-D2AC-4CAE-A67C-95CCFCBC0C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3B6C6D8-D2AC-4CAE-A67C-95CCFCBC0C88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{642CFDA3-8A5F-420D-8B38-81E0213655C8} = {3197AF7C-4279-4723-950B-78878023A4F6}
+		{FEF2E7A1-8EA9-465C-BA4E-CBE468169A9E} = {3197AF7C-4279-4723-950B-78878023A4F6}
 	EndGlobalSection
 EndGlobal
